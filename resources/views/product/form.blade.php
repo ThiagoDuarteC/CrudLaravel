@@ -2,8 +2,6 @@
     <div class="box-body">
         
         <div class="form-group mb-2 mt-3">
-            <!--AQUI QUEBROU-->
-            <!--input type="file" value="{{ $product->image }}"-->
             {{ Form::file('image', ['class' => 'custom-file-input', 'id' => 'customFile']) }}
         </div>
         <div class="form-group mb-2">
